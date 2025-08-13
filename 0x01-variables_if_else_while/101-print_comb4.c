@@ -1,8 +1,15 @@
 #include <stdio.h>
 
+/**
+ * main -Entry point
+ *
+ * Description : combination of digit
+ *
+ * Return: 0 (success)
+*/
 int main(void)
 {
-	int i,j,k;
+	int i, j, k;
 
 	for (i = 0; i <= 7; i++)
 	{
