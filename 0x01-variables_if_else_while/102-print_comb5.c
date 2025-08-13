@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main -Entry point
+ *
+ * Description : combination of digit
+ *
+ * Return: 0 (success)
+*/
 int main(void)
 {
 	int i, j;
