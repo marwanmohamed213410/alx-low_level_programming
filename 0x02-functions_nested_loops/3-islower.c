@@ -3,7 +3,7 @@
 /**
  * _islower - function used to check for lowercase character
  *
- * @c: iput
+ * @c: input
  *
  * Return: retun 1 if c is lowercase  otherwise 0 (success)
 */
