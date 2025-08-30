@@ -16,16 +16,12 @@ int main(void)
 
 	while (1)
 	{
-		printf("%lu, ", num1);
-		printf("%lu, ", num2);
-
 		nextNum = num1 + num2;
-		printf("%lu, ", nextNum);
 
 		num1 = num2;
 		num2 = nextNum;
 
-		if (nextNum > 4000000)
+		if (nextNum >= 4000000)
 			break;
 		if ((nextNum % 2) == 0)
 			sum += nextNum;
