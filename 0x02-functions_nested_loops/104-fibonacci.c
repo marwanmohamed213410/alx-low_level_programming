@@ -17,9 +17,9 @@ int main(void)
 	for (i = 1; i <= 98; i++)
 	{
 		if (i == 1)
-			printf("%lu, ", num1);
+			printf("%lu", num1);
 		else if (i == 2)
-			printf("%lu, ", num2);
+			printf(", %lu", num2);
 		else
 		{
 			low = n1_l + n2_l;
@@ -32,9 +32,9 @@ int main(void)
 			}
 
 			if (high > 0)
-				printf("%lu%09lu, ", high, low);
+				printf(", %lu%09lu", high, low);
 			else
-				printf("%lu, ", low);
+				printf(", %lu", low);
 
 			n1_h = n2_h;
 			n1_l = n2_l;
@@ -42,6 +42,6 @@ int main(void)
 			n2_l = low;
 		}
 	}
-	printf("\n");
+    printf("\n");
 	return (0);
 }
