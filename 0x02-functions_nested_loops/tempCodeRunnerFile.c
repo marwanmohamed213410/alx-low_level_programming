@@ -1,1 +1,1 @@
-			printf("%llu", nextNum);
+%lu
