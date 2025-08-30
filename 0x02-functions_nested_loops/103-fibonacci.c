@@ -12,14 +12,9 @@ int main(void)
 	unsigned long num1 = 1, num2 = 2, nextNum;
 	unsigned long sum = 0;
 
-	sum += num2;
-
 	while (1)
 	{
 		nextNum = num1 + num2;
-
-		num1 = num2;
-		num2 = nextNum;
 
 		if (nextNum >= 4000000)
 			break;
