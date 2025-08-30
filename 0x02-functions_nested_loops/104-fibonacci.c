@@ -23,7 +23,7 @@ int main(void)
 		else
 		{
 			low = n1_l + n2_l;
-			high = n1_h + n1_h;
+			high = n1_h + n2_h;
 
 			if (low >= max)
 			{
