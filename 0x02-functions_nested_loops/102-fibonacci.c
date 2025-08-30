@@ -15,13 +15,13 @@ int main(void)
 	for (i = 1; i <= 50; i++)
 	{
         if (i == 1)
-            printf("%llu", num1);
+            printf("%lu", num1);
         else if (i == 2)
-            printf("%llu", num2);
+            printf("%lu", num2);
 		else
 		{
 			nextNum = num1 + num2;
-			printf("%llu", nextNum);
+			printf("%lu", nextNum);
 			num1 = num2;
 			num2 = nextNum;
 		}
