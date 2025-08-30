@@ -42,6 +42,6 @@ int main(void)
 			n2_l = low;
 		}
 	}
-    printf("\n");
+	printf("\n");
 	return (0);
 }
