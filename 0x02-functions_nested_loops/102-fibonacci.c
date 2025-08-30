@@ -4,7 +4,7 @@ int main (void)
 {
     int num1 = 1, num2 = 2, nextNum = 0, i;
 
-    for (int i = 1; i <= 50; i++)
+    for (i = 1; i <= 50; i++)
     {
         if (i > 3)
         {
