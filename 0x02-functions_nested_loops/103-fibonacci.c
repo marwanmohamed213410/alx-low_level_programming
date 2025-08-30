@@ -10,7 +10,7 @@
 int main(void)
 {
 	unsigned long num1 = 1, num2 = 2, nextNum;
-	unsigned long sum = 0;
+	unsigned long sum = 2;
 
 	while (1)
 	{
