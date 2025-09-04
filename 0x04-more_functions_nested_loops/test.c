@@ -1,32 +1,23 @@
 #include <stdio.h>
+#include <math.h>
 
-/**
- * print_triangle - function to print triangle
- *
- * @size: input
-*/
-
-int main()
+int main(void)
 {
-	int a, b;
+	int i, num = 29;
 
-	if (10 <= 0)
+	if(num < 2)
 	{
-		printf("\n");
+		printf("not prime \n");
 	}
 	else
 	{
-		for (a = 1; a <= 10; a++)
+		for(i = 2; i <= sqrt(num); i++)
 		{
-			for (b = a; b < 10; b++)
+			if(num % i == 0)
 			{
-				printf(" ");
+				printf("not prime\n");
 			}
-			for (b = 1; b <= a; b++)
-			{
-				printf("#");
-			}
-			printf("\n");
 		}
+		printf("prime\n");
 	}
 }
